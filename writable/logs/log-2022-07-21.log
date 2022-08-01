@@ -1,0 +1,194 @@
+CRITICAL - 2022-07-21 08:31:16 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 416.
+ 1 SYSTEMPATH/Database/BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_user`
+WHERE `username` = :username:
+AND `password` = :password:', [...], false)
+ 3 APPPATH/Models/Login_model.php(15): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Home.php(29): App\Models\Login_model->getLogin('admin', 'admin')
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Home->p_login()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 /Users/pycodev/.composer/vendor/laravel/valet/server.php(234): require('FCPATH/index.php')
+CRITICAL - 2022-07-21 08:33:07 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 416.
+ 1 SYSTEMPATH/Database/BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_user`
+WHERE `username` = :username:
+AND `password` = :password:', [...], false)
+ 3 APPPATH/Models/Login_model.php(15): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Home.php(29): App\Models\Login_model->getLogin('admin', 'admin')
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Home->p_login()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 /Users/pycodev/.composer/vendor/laravel/valet/server.php(234): require('FCPATH/index.php')
+CRITICAL - 2022-07-21 08:33:21 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 416.
+ 1 SYSTEMPATH/Database/BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_user`
+WHERE `username` = :username:
+AND `password` = :password:', [...], false)
+ 3 APPPATH/Models/Login_model.php(15): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Home.php(29): App\Models\Login_model->getLogin('admin', 'admin')
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Home->p_login()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-21 08:34:06 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 416.
+ 1 SYSTEMPATH/Database/BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_user`
+WHERE `username` = :username:
+AND `password` = :password:', [...], false)
+ 3 APPPATH/Models/Login_model.php(15): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Home.php(29): App\Models\Login_model->getLogin('admin', 'admin')
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Home->p_login()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 /Users/pycodev/.composer/vendor/laravel/valet/server.php(234): require('FCPATH/index.php')
+CRITICAL - 2022-07-21 08:36:58 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 416.
+ 1 SYSTEMPATH/Database/BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_user`
+WHERE `username` = :username:
+AND `password` = :password:', [...], false)
+ 3 APPPATH/Models/Login_model.php(15): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Home.php(29): App\Models\Login_model->getLogin('admin', 'admin')
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Home->p_login()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 /Users/pycodev/.composer/vendor/laravel/valet/server.php(234): require('FCPATH/index.php')
+CRITICAL - 2022-07-21 10:09:03 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 416.
+ 1 SYSTEMPATH/Database/BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_user`
+WHERE `username` = :username:
+AND `password` = :password:', [...], false)
+ 3 APPPATH/Models/Login_model.php(15): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Home.php(29): App\Models\Login_model->getLogin('admin', 'admin')
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Home->p_login()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-21 10:18:38 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 416.
+ 1 SYSTEMPATH/Database/BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_user`
+WHERE `username` = :username:
+AND `password` = :password:', [...], false)
+ 3 APPPATH/Models/Login_model.php(15): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Home.php(29): App\Models\Login_model->getLogin('admin', 'admin')
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Home->p_login()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 /Users/pycodev/.composer/vendor/laravel/valet/server.php(234): require('FCPATH/index.php')
+CRITICAL - 2022-07-21 10:28:03 --> Call to undefined function App\Controllers\getPost()
+in APPPATH/Controllers/Home.php on line 28.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Home->p_login()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 /Users/pycodev/.composer/vendor/laravel/valet/server.php(234): require('FCPATH/index.php')
+CRITICAL - 2022-07-21 10:28:20 --> Call to undefined function App\Controllers\getPost()
+in APPPATH/Controllers/Home.php on line 28.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Home->p_login()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 /Users/pycodev/.composer/vendor/laravel/valet/server.php(234): require('FCPATH/index.php')
+CRITICAL - 2022-07-21 10:29:58 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 416.
+ 1 SYSTEMPATH/Database/BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_user`
+WHERE `username` = :username:
+AND `password` = :password:', [...], false)
+ 3 APPPATH/Models/Login_model.php(15): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Home.php(29): App\Models\Login_model->getLogin('admin', 'admin')
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Home->p_login()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 /Users/pycodev/.composer/vendor/laravel/valet/server.php(234): require('FCPATH/index.php')
+CRITICAL - 2022-07-21 10:38:04 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 416.
+ 1 SYSTEMPATH/Database/BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_user`
+WHERE `username` = :username:
+AND `password` = :password:', [...], false)
+ 3 APPPATH/Models/Login_model.php(16): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Home.php(29): App\Models\Login_model->getLogin('admin', 'admin')
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Home->p_login()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 /Users/pycodev/.composer/vendor/laravel/valet/server.php(234): require('FCPATH/index.php')
+CRITICAL - 2022-07-21 10:44:25 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 416.
+ 1 SYSTEMPATH/Database/BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_user`
+WHERE `username` = :username:
+AND `password` = :password:', [...], false)
+ 3 APPPATH/Models/Login_model.php(15): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Home.php(29): App\Models\Login_model->getLogin('admin', 'admin')
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Home->p_login()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 /Users/pycodev/.composer/vendor/laravel/valet/server.php(234): require('FCPATH/index.php')
+CRITICAL - 2022-07-21 11:31:16 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 416.
+ 1 SYSTEMPATH/Database/BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_user`
+WHERE `username` = :username:
+AND `password` = :password:', [...], false)
+ 3 APPPATH/Models/Login_model.php(15): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Home.php(29): App\Models\Login_model->getLogin('admin', 'admin')
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Home->p_login()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 /Users/pycodev/.composer/vendor/laravel/valet/server.php(234): require('FCPATH/index.php')
+CRITICAL - 2022-07-21 22:57:58 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 416.
+ 1 SYSTEMPATH/Database/BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_user`
+WHERE `username` = :username:
+AND `password` = :password:', [...], false)
+ 3 APPPATH/Models/Login_model.php(15): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Home.php(29): App\Models\Login_model->getLogin('admin', 'admin')
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Home->p_login()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 /Users/pycodev/.composer/vendor/laravel/valet/server.php(234): require('FCPATH/index.php')

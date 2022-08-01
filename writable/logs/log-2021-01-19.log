@@ -1,0 +1,30 @@
+CRITICAL - 2021-01-19 20:41:46 --> Undefined property: App\Controllers\Admin\Dashboard::$crud
+#0 C:\xampp7\htdocs\spk_wahyu\app\Controllers\Admin\Dashboard.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp7\\htdoc...', 29, Array)
+#1 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Dashboard->stok()
+#2 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\spk_wahyu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp7\\htdoc...')
+#6 {main}
+CRITICAL - 2021-01-19 21:42:48 --> Undefined variable: i
+#0 C:\xampp7\htdocs\spk_wahyu\app\Views\Admin\Content\Produk_masuk.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7\\htdoc...', 42, Array)
+#1 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp7\\htdoc...')
+#2 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('Admin/Content/P...', Array, true)
+#3 C:\xampp7\htdocs\spk_wahyu\app\Controllers\Admin\Products_masuk.php(20): view('Admin/Content/P...', Array)
+#4 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Products_masuk->index()
+#5 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products_masuk))
+#6 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp7\htdocs\spk_wahyu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp7\\htdoc...')
+#9 {main}
+CRITICAL - 2021-01-19 21:43:04 --> Undefined variable: i
+#0 C:\xampp7\htdocs\spk_wahyu\app\Views\Admin\Content\Produk_masuk.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7\\htdoc...', 43, Array)
+#1 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp7\\htdoc...')
+#2 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('Admin/Content/P...', Array, true)
+#3 C:\xampp7\htdocs\spk_wahyu\app\Controllers\Admin\Products_masuk.php(20): view('Admin/Content/P...', Array)
+#4 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Products_masuk->index()
+#5 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products_masuk))
+#6 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp7\htdocs\spk_wahyu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp7\\htdoc...')
+#9 {main}

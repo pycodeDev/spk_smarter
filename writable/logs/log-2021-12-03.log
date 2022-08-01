@@ -1,0 +1,12 @@
+CRITICAL - 2021-12-03 23:01:02 --> Undefined variable: kriteria
+#0 C:\xampp\htdocs\spk_wahyu\app\Views\Admin\Content\Dashboard.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 65, Array)
+#1 C:\xampp\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Admin/Content/D...', Array, true)
+#4 C:\xampp\htdocs\spk_wahyu\app\Controllers\Admin\Dashboard.php(21): view('Admin/Content/D...', Array)
+#5 C:\xampp\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Admin\Dashboard->index()
+#6 C:\xampp\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#7 C:\xampp\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\spk_wahyu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}

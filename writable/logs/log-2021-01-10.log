@@ -1,0 +1,128 @@
+CRITICAL - 2021-01-10 04:46:59 --> You must set the database table to be used with your query.
+#0 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Model.php(1237): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Model.php(1816): CodeIgniter\Model->builder()
+#2 C:\xampp7\htdocs\spk_wahyu\app\Controllers\Admin\Products.php(19): CodeIgniter\Model->__call('read_all_data', Array)
+#3 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Products->index()
+#4 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#5 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp7\htdocs\spk_wahyu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp7\\htdoc...')
+#8 {main}
+CRITICAL - 2021-01-10 07:24:08 --> Undefined variable: validation
+#0 C:\xampp7\htdocs\spk_wahyu\app\Views\Admin\Content\Add_produk.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7\\htdoc...', 34, Array)
+#1 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp7\\htdoc...')
+#2 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('Admin/Content/A...', Array, true)
+#3 C:\xampp7\htdocs\spk_wahyu\app\Controllers\Admin\Products.php(29): view('Admin/Content/A...', Array)
+#4 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Products->add()
+#5 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#6 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp7\htdocs\spk_wahyu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp7\\htdoc...')
+#9 {main}
+CRITICAL - 2021-01-10 07:25:02 --> Undefined variable: form_validation
+#0 C:\xampp7\htdocs\spk_wahyu\app\Views\Admin\Content\Add_produk.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7\\htdoc...', 34, Array)
+#1 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp7\\htdoc...')
+#2 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('Admin/Content/A...', Array, true)
+#3 C:\xampp7\htdocs\spk_wahyu\app\Controllers\Admin\Products.php(29): view('Admin/Content/A...', Array)
+#4 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Products->add()
+#5 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#6 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp7\htdocs\spk_wahyu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp7\\htdoc...')
+#9 {main}
+CRITICAL - 2021-01-10 07:43:39 --> min_lenth is not a valid rule.
+#0 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Validation\Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('min_lenth')
+#1 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('nama_suku_cadan...', 'nama_suku_cadan...', 'adsa', Array, Array)
+#2 C:\xampp7\htdocs\spk_wahyu\app\Controllers\Admin\Products.php(47): CodeIgniter\Validation\Validation->run(Array, 'input_produk')
+#3 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Products->store()
+#4 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#5 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp7\htdocs\spk_wahyu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp7\\htdoc...')
+#8 {main}
+CRITICAL - 2021-01-10 08:49:51 --> required|min_length is not a valid rule.
+#0 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Validation\Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required|min_le...')
+#1 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('nomor_suku_cada...', 'nomor_suku_cada...', 'asdad', Array, Array)
+#2 C:\xampp7\htdocs\spk_wahyu\app\Controllers\Admin\Products.php(45): CodeIgniter\Validation\Validation->run(Array, 'input_produk')
+#3 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Products->store()
+#4 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#5 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp7\htdocs\spk_wahyu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp7\\htdoc...')
+#8 {main}
+CRITICAL - 2021-01-10 11:50:14 --> Too few arguments to function App\Controllers\Admin\Products::edit(), 0 passed in C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Products->edit()
+#1 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#2 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7\htdocs\spk_wahyu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp7\\htdoc...')
+#5 {main}
+CRITICAL - 2021-01-10 11:50:41 --> Too few arguments to function App\Controllers\Admin\Products::edit(), 0 passed in C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Products->edit()
+#1 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#2 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7\htdocs\spk_wahyu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp7\\htdoc...')
+#5 {main}
+CRITICAL - 2021-01-10 11:52:07 --> Too few arguments to function App\Controllers\Admin\Products::edit(), 0 passed in C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Products->edit()
+#1 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#2 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7\htdocs\spk_wahyu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp7\\htdoc...')
+#5 {main}
+CRITICAL - 2021-01-10 11:55:38 --> Undefined index: nomor_suku_cadang
+#0 C:\xampp7\htdocs\spk_wahyu\app\Views\Admin\Content\Edit_produk.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp7\\htdoc...', 34, Array)
+#1 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp7\\htdoc...')
+#2 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('Admin/Content/E...', Array, true)
+#3 C:\xampp7\htdocs\spk_wahyu\app\Controllers\Admin\Products.php(60): view('Admin/Content/E...', Array)
+#4 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Products->edit('3')
+#5 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#6 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp7\htdocs\spk_wahyu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp7\\htdoc...')
+#9 {main}
+CRITICAL - 2021-01-10 11:57:56 --> Undefined index: nomor_suku_cadang
+#0 C:\xampp7\htdocs\spk_wahyu\app\Views\Admin\Content\Edit_produk.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp7\\htdoc...', 34, Array)
+#1 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp7\\htdoc...')
+#2 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('Admin/Content/E...', Array, true)
+#3 C:\xampp7\htdocs\spk_wahyu\app\Controllers\Admin\Products.php(60): view('Admin/Content/E...', Array)
+#4 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Products->edit('3')
+#5 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#6 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp7\htdocs\spk_wahyu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp7\\htdoc...')
+#9 {main}
+CRITICAL - 2021-01-10 11:58:23 --> Undefined index: nomor_suku_cadang
+#0 C:\xampp7\htdocs\spk_wahyu\app\Views\Admin\Content\Edit_produk.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp7\\htdoc...', 34, Array)
+#1 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp7\\htdoc...')
+#2 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('Admin/Content/E...', Array, true)
+#3 C:\xampp7\htdocs\spk_wahyu\app\Controllers\Admin\Products.php(60): view('Admin/Content/E...', Array)
+#4 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Products->edit('3')
+#5 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#6 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp7\htdocs\spk_wahyu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp7\\htdoc...')
+#9 {main}
+CRITICAL - 2021-01-10 11:58:29 --> Undefined index: nomor_suku_cadang
+#0 C:\xampp7\htdocs\spk_wahyu\app\Views\Admin\Content\Edit_produk.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp7\\htdoc...', 34, Array)
+#1 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp7\\htdoc...')
+#2 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('Admin/Content/E...', Array, true)
+#3 C:\xampp7\htdocs\spk_wahyu\app\Controllers\Admin\Products.php(60): view('Admin/Content/E...', Array)
+#4 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Products->edit('3')
+#5 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#6 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp7\htdocs\spk_wahyu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp7\\htdoc...')
+#9 {main}
+CRITICAL - 2021-01-10 11:59:06 --> Undefined index: nomor_suku_cadang
+#0 C:\xampp7\htdocs\spk_wahyu\app\Views\Admin\Content\Edit_produk.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp7\\htdoc...', 5, Array)
+#1 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp7\\htdoc...')
+#2 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('Admin/Content/E...', Array, true)
+#3 C:\xampp7\htdocs\spk_wahyu\app\Controllers\Admin\Products.php(60): view('Admin/Content/E...', Array)
+#4 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Products->edit('3')
+#5 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products))
+#6 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp7\htdocs\spk_wahyu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp7\\htdoc...')
+#9 {main}

@@ -1,0 +1,11 @@
+CRITICAL - 2020-09-23 01:30:47 --> Undefined variable: config
+#0 C:\xampp7\htdocs\spk_wahyu\app\Views\login.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7\\htdoc...', 32, Array)
+#1 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp7\\htdoc...')
+#2 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('login', Array, true)
+#3 C:\xampp7\htdocs\spk_wahyu\app\Controllers\Home.php(13): view('login')
+#4 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp7\htdocs\spk_wahyu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp7\\htdoc...')
+#9 {main}

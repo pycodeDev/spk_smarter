@@ -1,0 +1,57 @@
+CRITICAL - 2021-01-20 08:49:55 --> Array to string conversion
+#0 C:\xampp7\htdocs\spk_wahyu\app\Controllers\Admin\Products_masuk.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp7\\htdoc...', 26, Array)
+#1 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Products_masuk->detail('AN12322')
+#2 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products_masuk))
+#3 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\spk_wahyu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp7\\htdoc...')
+#6 {main}
+CRITICAL - 2021-01-20 08:50:07 --> Array to string conversion
+#0 C:\xampp7\htdocs\spk_wahyu\app\Controllers\Admin\Products_masuk.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp7\\htdoc...', 26, Array)
+#1 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Products_masuk->detail('AN12322')
+#2 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products_masuk))
+#3 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\spk_wahyu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp7\\htdoc...')
+#6 {main}
+CRITICAL - 2021-01-20 08:51:04 --> Array to string conversion
+#0 C:\xampp7\htdocs\spk_wahyu\app\Controllers\Admin\Products_masuk.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp7\\htdoc...', 27, Array)
+#1 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Products_masuk->detail('AN12322')
+#2 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products_masuk))
+#3 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\spk_wahyu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp7\\htdoc...')
+#6 {main}
+CRITICAL - 2021-01-20 09:33:25 --> Unknown column 'tanggal' in 'order clause'
+#0 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7\htdocs\spk_wahyu\app\Models\Crud_model.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7\htdocs\spk_wahyu\app\Controllers\Admin\Products_masuk.php(26): App\Models\Crud_model->read_data_all_where1('tb_produk', 'nomor_suku_cada...', 'AN12322', true, 'tanggal', 'ASC')
+#6 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Products_masuk->detail('AN12322')
+#7 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products_masuk))
+#8 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp7\htdocs\spk_wahyu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp7\\htdoc...')
+#11 {main}
+CRITICAL - 2021-01-20 09:34:34 --> Undefined variable: hasil
+#0 C:\xampp7\htdocs\spk_wahyu\app\Models\Crud_model.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7\\htdoc...', 64, Array)
+#1 C:\xampp7\htdocs\spk_wahyu\app\Controllers\Admin\Products_masuk.php(27): App\Models\Crud_model->data_product(Array)
+#2 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Products_masuk->detail('AN12322')
+#3 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products_masuk))
+#4 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7\htdocs\spk_wahyu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp7\\htdoc...')
+#7 {main}
+CRITICAL - 2021-01-20 20:53:14 --> Undefined index: nama_suku_cadang
+#0 C:\xampp7\htdocs\spk_wahyu\app\Views\Admin\Content\Add_produk_masuk.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp7\\htdoc...', 27, Array)
+#1 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp7\\htdoc...')
+#2 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('Admin/Content/A...', Array, true)
+#3 C:\xampp7\htdocs\spk_wahyu\app\Controllers\Admin\Products_masuk.php(39): view('Admin/Content/A...', Array)
+#4 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Products_masuk->add('LK890')
+#5 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products_masuk))
+#6 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp7\htdocs\spk_wahyu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp7\\htdoc...')
+#9 {main}

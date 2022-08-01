@@ -1,0 +1,67 @@
+CRITICAL - 2020-09-21 11:11:41 --> Undefined property: App\Controllers\Home::$input
+#0 C:\xampp7\htdocs\spk_wahyu\app\Controllers\Home.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp7\\htdoc...', 14, Array)
+#1 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->p_login()
+#2 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\spk_wahyu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp7\\htdoc...')
+#6 {main}
+CRITICAL - 2020-09-21 11:12:01 --> Undefined property: App\Controllers\Home::$input
+#0 C:\xampp7\htdocs\spk_wahyu\app\Controllers\Home.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp7\\htdoc...', 14, Array)
+#1 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->p_login()
+#2 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\spk_wahyu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp7\\htdoc...')
+#6 {main}
+CRITICAL - 2020-09-21 11:13:26 --> Undefined property: App\Controllers\Home::$input
+#0 C:\xampp7\htdocs\spk_wahyu\app\Controllers\Home.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp7\\htdoc...', 14, Array)
+#1 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->p_login()
+#2 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\spk_wahyu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp7\\htdoc...')
+#6 {main}
+CRITICAL - 2020-09-21 11:19:50 --> Too few arguments to function App\Controllers\Home::__construct(), 0 passed in C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php on line 890 and exactly 1 expected
+#0 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Home->__construct()
+#1 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7\htdocs\spk_wahyu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp7\\htdoc...')
+#5 {main}
+CRITICAL - 2020-09-21 11:20:01 --> Too few arguments to function App\Controllers\Home::__construct(), 0 passed in C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php on line 890 and exactly 1 expected
+#0 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Home->__construct()
+#1 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7\htdocs\spk_wahyu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp7\\htdoc...')
+#5 {main}
+CRITICAL - 2020-09-21 11:20:15 --> Too few arguments to function App\Controllers\Home::__construct(), 0 passed in C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php on line 890 and exactly 1 expected
+#0 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Home->__construct()
+#1 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7\htdocs\spk_wahyu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp7\\htdoc...')
+#5 {main}
+CRITICAL - 2020-09-21 11:21:18 --> Too few arguments to function App\Controllers\Home::__construct(), 0 passed in C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php on line 890 and exactly 1 expected
+#0 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Home->__construct()
+#1 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7\htdocs\spk_wahyu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp7\\htdoc...')
+#5 {main}
+CRITICAL - 2020-09-21 11:21:21 --> Too few arguments to function App\Controllers\Home::__construct(), 0 passed in C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php on line 890 and exactly 1 expected
+#0 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Home->__construct()
+#1 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7\htdocs\spk_wahyu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp7\\htdoc...')
+#5 {main}
+CRITICAL - 2020-09-21 11:23:27 --> Undefined variable: request
+#0 C:\xampp7\htdocs\spk_wahyu\app\Controllers\Home.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp7\\htdoc...', 18, Array)
+#1 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->p_login()
+#2 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\spk_wahyu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp7\\htdoc...')
+#6 {main}

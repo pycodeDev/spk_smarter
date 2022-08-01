@@ -1,0 +1,98 @@
+CRITICAL - 2021-01-23 00:24:19 --> Array to string conversion
+#0 C:\xampp7\htdocs\spk_wahyu\app\Controllers\Admin\Products_keluar.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp7\\htdoc...', 54, Array)
+#1 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Products_keluar->store('LK890')
+#2 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products_keluar))
+#3 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\spk_wahyu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp7\\htdoc...')
+#6 {main}
+CRITICAL - 2021-01-23 00:24:43 --> Undefined index: stok
+#0 C:\xampp7\htdocs\spk_wahyu\app\Controllers\Admin\Products_keluar.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp7\\htdoc...', 53, Array)
+#1 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Products_keluar->store('LK890')
+#2 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products_keluar))
+#3 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\spk_wahyu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp7\\htdoc...')
+#6 {main}
+CRITICAL - 2021-01-23 00:25:35 --> Array to string conversion
+#0 C:\xampp7\htdocs\spk_wahyu\app\Controllers\Admin\Products_keluar.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp7\\htdoc...', 54, Array)
+#1 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Products_keluar->store('LK890')
+#2 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products_keluar))
+#3 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\spk_wahyu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp7\\htdoc...')
+#6 {main}
+CRITICAL - 2021-01-23 00:25:57 --> Array to string conversion
+#0 C:\xampp7\htdocs\spk_wahyu\app\Controllers\Admin\Products_keluar.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp7\\htdoc...', 54, Array)
+#1 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Products_keluar->store('LK890')
+#2 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products_keluar))
+#3 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7\htdocs\spk_wahyu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp7\\htdoc...')
+#6 {main}
+CRITICAL - 2021-01-23 08:55:47 --> Too few arguments to function App\Controllers\Admin\Products_keluar::add(), 0 passed in C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Products_keluar->add()
+#1 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Products_keluar))
+#2 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7\htdocs\spk_wahyu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp7\\htdoc...')
+#5 {main}
+CRITICAL - 2021-01-23 09:35:03 --> You must set the database table to be used with your query.
+#0 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Model.php(1237): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Model.php(1816): CodeIgniter\Model->builder()
+#2 C:\xampp7\htdocs\spk_wahyu\app\Controllers\Admin\Kriteria.php(37): CodeIgniter\Model->__call('save_data_rank', Array)
+#3 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Kriteria->store()
+#4 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kriteria))
+#5 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp7\htdocs\spk_wahyu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp7\\htdoc...')
+#8 {main}
+CRITICAL - 2021-01-23 13:24:43 --> The action you requested is not allowed.
+#0 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('search', 'before')
+#4 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7\htdocs\spk_wahyu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp7\\htdoc...')
+#7 {main}
+CRITICAL - 2021-01-23 13:26:05 --> The action you requested is not allowed.
+#0 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('search', 'before')
+#4 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7\htdocs\spk_wahyu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp7\\htdoc...')
+#7 {main}
+CRITICAL - 2021-01-23 13:32:16 --> The action you requested is not allowed.
+#0 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Security\Security.php(233): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Filters\CSRF.php(88): CodeIgniter\Security\Security->CSRFVerify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('search', 'before')
+#4 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7\htdocs\spk_wahyu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp7\\htdoc...')
+#7 {main}
+CRITICAL - 2021-01-23 22:35:33 --> Undefined index: nama_kriteria
+#0 C:\xampp7\htdocs\spk_wahyu\app\Views\Admin\Content\Add_sub_kriteria.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp7\\htdoc...', 30, Array)
+#1 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp7\\htdoc...')
+#2 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('Admin/Content/A...', Array, true)
+#3 C:\xampp7\htdocs\spk_wahyu\app\Controllers\Admin\Sub_kriteria.php(39): view('Admin/Content/A...', Array)
+#4 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Sub_kriteria->add('1')
+#5 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Sub_kriteria))
+#6 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp7\htdocs\spk_wahyu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp7\\htdoc...')
+#9 {main}
+CRITICAL - 2021-01-23 22:36:56 --> Undefined index: nomor_sub_kriteria
+#0 C:\xampp7\htdocs\spk_wahyu\app\Views\Admin\Content\Add_sub_kriteria.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp7\\htdoc...', 38, Array)
+#1 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp7\\htdoc...')
+#2 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('Admin/Content/A...', Array, true)
+#3 C:\xampp7\htdocs\spk_wahyu\app\Controllers\Admin\Sub_kriteria.php(39): view('Admin/Content/A...', Array)
+#4 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin\Sub_kriteria->add('1')
+#5 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Sub_kriteria))
+#6 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp7\htdocs\spk_wahyu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp7\htdocs\spk_wahyu\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp7\\htdoc...')
+#9 {main}
